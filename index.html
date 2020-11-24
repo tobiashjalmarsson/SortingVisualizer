@@ -16,7 +16,10 @@
                 <button onclick="GenerateArray()">Generate Array</button>
                 <button onclick="insertion_sort()">Inertion Sort</button>
                 <button onclick="bubble_sort()">Bubble Sort</button>
-                Array Size <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <button onclick="merge_sort(3, document.getElementById('sortingContainer').children.length - 1)">Merge Sort</button>
+                Array Size <input type="range" min="1" max="200" value="100" class="slider" id="numElements">
+                Speed <input type="range" min="0" max="200" value="100" class="slider" id="speed">
+
             </div>
             
             <div id="sortingContainer">

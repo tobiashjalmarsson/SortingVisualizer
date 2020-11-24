@@ -1,10 +1,12 @@
 .sorting_element {
     background-color: red;
     height: 50px;
-    width: 2px;
+    width: 0.5%;
     display: inline-block;
-    border: solid;
-    margin: 1px;
+    margin-left: 0.4px;
+    margin-right: 0.4px;
+    border-top-left-radius:  25px;
+    border-top-right-radius: 25px;
 }
 #header {
     align-self: center;
@@ -42,5 +44,6 @@ button {
 #sortingContainer {
     display: inline-block;
     justify-content: center;
+    width: 100%;
 
 }
