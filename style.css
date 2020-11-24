@@ -1,0 +1,46 @@
+.sorting_element {
+    background-color: red;
+    height: 50px;
+    width: 2px;
+    display: inline-block;
+    border: solid;
+    margin: 1px;
+}
+#header {
+    align-self: center;
+    text-align: center;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#masterContainer {
+    justify-content: center;
+    text-align: center;
+}
+
+#buttonDiv {
+    margin: 40px;
+}
+button {
+    margin: 20px;
+}
+
+.being_sorted {
+    background-color: blue;
+    width: 2px;
+    display: inline-block;
+    border: solid;
+    margin: 1px;
+}
+
+.sorted {
+    background-color: greenyellow;
+    width: 2px;
+    border: solid;
+    margin:1px;
+}
+
+#sortingContainer {
+    display: inline-block;
+    justify-content: center;
+
+}

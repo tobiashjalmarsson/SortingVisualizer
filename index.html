@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="header">Sorting Visualizer</h1>
+        <div id="masterContainer">
+            <div id="buttonDiv">
+                <button onclick="GenerateArray()">Generate Array</button>
+                <button onclick="insertion_sort()">Inertion Sort</button>
+                <button onclick="bubble_sort()">Bubble Sort</button>
+                Array Size <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            
+            <div id="sortingContainer">
+            </div>
+        </div>
+        
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>
