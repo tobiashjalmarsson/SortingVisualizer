@@ -81,6 +81,7 @@ async function insertion_sort(){
         let j = i;
         while(j > low && all_items.children[j-1].offsetHeight > value.offsetHeight){
             all_items.insertBefore(all_items.children[j], all_items.children[j-1]);
+            
             await sleep(speed);
             j--;
         }
@@ -102,6 +103,7 @@ async function bubble_sort(){
     for(let i = 0; i < len; i++) {
         for(let j = 0; j < len - i; j++) {
             value = all_items.children[j];
+            value.style.backgroundColor = "blue";
             //value.style.backgroundColor = "orange";
             await sleep(10);
             if(value.offsetHeight > all_items.children[j+1].offsetHeight) {
@@ -109,7 +111,9 @@ async function bubble_sort(){
                 sorting_container.insertBefore(all_items.children[j+1], value);
                 //value.style.backgroundColor = "greenyellow";
             }
+            all_items.children[j].style.backgroundColor = "red";
         }
+        all_items.children[len - i].style.backgroundColor = "yellowgreen";
     }
     finished();
 }
