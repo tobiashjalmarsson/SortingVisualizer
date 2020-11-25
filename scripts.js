@@ -57,6 +57,7 @@ async function finished(){
 async function insertion_sort(){
     // get the input from the slider which determines the speed
     let speed = document.getElementById("speed").value;
+    speed = 200 - speed;
     // get a reference for the container of our divs.
     // perhaps change this to document.getElementById("sortingContainer").children to make code cleaner
     let all_items = document.getElementById("sortingContainer");
