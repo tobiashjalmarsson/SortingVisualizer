@@ -5,11 +5,11 @@ Create basic page [X]
 Insertion Sort [X]
 Bubble Sort [X]
 Insertion Sort visualization [X]
+Update layout [X] (Note: breaks a bit on smaller windows, needs to be updated if time allows it).
+Bubble Sort Visualization [X]
 
 Uncompleted:
 Merge Sort []
-Bubble Sort Visualization []
 Merge Sort Visualization []
-Update layout []
 Implement backend []
 Go live []

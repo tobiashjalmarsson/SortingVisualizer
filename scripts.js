@@ -1,3 +1,11 @@
+/* HexCodes for styling
+    A9E5BB
+    FCF6B1
+    F7B32B
+    F72C25
+    2D1E2F
+*/
+
 
 // Global variables
 var sorting_container  = document.getElementById("sortingContainer");
@@ -45,7 +53,7 @@ async function finished(){
     let all_items = document.getElementById("sortingContainer");
     for(let i = 0; i < all_items.children.length; i++){
         // change color to indicate that we are done
-        all_items.children[i].style.backgroundColor = "green";
+        all_items.children[i].style.backgroundColor = "hsl(214, 91%, 63%)";
         //delay for 15 ms
         await sleep(15);
     }
