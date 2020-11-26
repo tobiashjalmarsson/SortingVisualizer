@@ -85,10 +85,12 @@ async function insertion_sort(){
             await sleep(speed);
             j--;
         }
+        all_items.children[j].style.backgroundColor = "greenyellow";
+        value.style.backgroundColor = "greenyellow";
         all_items.insertBefore(all_items.children[j], value);
         // when it's in place, change color to greenyellow
         all_items.children[j+1].style.backgroundColor = "greenyellow";
-        value.style.backgroundColor = "greenyellow";
+        
     }
     finished();
 
